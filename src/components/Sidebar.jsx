@@ -42,7 +42,7 @@ const Sidebar = () => {
         <NavLinks />
       </div>
       {/* mobile sidebar */}
-      <div className="absolute block top-6 right-3 md:hidden ">
+      <div className="absolute block top-10 right-3 md:hidden ">
         {mobileMenuOpen ? (
           <RiCloseLine className="w-6 h-6 text-white mr-2" onClick={() => setMobileMenuOpen(false)} />
         ) : (
